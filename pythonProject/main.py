@@ -7,7 +7,7 @@ from telebot import types
 import time
 
 
-lang: TeleBot = telebot.TeleBot('6660554674:AAHp611_XyglwKs9zb9HV_o_KGFKJeT8JbI')
+lang: TeleBot = telebot.TeleBot('6660554674:AAHp611_XyglwKs9zb9HV_o_KGFKJeT8JbI') vercel dev
 
 
 @lang.message_handler(commands=['menu'], content_types=['text', 'photo', 'audio', 'media', 'video'])
